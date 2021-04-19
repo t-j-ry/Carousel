@@ -1,3 +1,4 @@
+export const data = 
 [
     {
         "id":0,"username":"joelsartore",
@@ -15,7 +16,8 @@
             {"username":"brianna_dj","commentText":"Majestic!"},
             {"username":"insidespiral07","commentText":"😍 Love your work"}
         ],
-        "datePosted":"february 1, 2021"
+        "datePosted":"february 1, 2021",
+        "job":"UX Designer"
     },
     
     {
@@ -31,7 +33,8 @@
             {"username":"rubykathleen_w","commentText":"His food probably expires before it reaches his belly."},
             {"username":"insidespiral07","commentText":"Hecc he got that necc"}
         ],
-        "datePosted":"january 30, 2021"
+        "datePosted":"january 30, 2021",
+        "job":"Javascript Developer"
     },
         
     {
@@ -47,7 +50,8 @@
         "comments":[
             {"username":"searayfoods","commentText":"Oh what! 👏👏👏"},{"username":"yvrbcbro","commentText":"If you think you want 1 bag you need 2!"}
         ],
-        "datePosted":"january 15, 2021"
+        "datePosted":"january 15, 2021",
+        "job":"PHP Developer"
     },
     
     {
@@ -62,7 +66,8 @@
         "comments":[
             {"username":"jessicasklose","commentText":"STOP IT @jjjjaded"},{"username":"jjjjaded","commentText":"Let's go!"},{"username":"jessicasklose","commentText":"I hate that I’m eating a burrito as I type this."}
         ],
-        "datePosted":"january 10, 2021"
+        "datePosted":"january 10, 2021",
+        "job":"Database Administrator"
     },
     
     {
@@ -78,7 +83,10 @@
         "comments":[
             {"username":"salad_tray","commentText":"Antisocial pumpkin patch 🎃😍"},{"username":"alanavaccaro","commentText":"Ship some to Seattle ❤️"}
         ],
-        "datePosted":"january 7, 2021"},
+        "datePosted":"january 7, 2021",
+        "job":"React Developed"
+    },
+        
         
     {
         "id":5,"username":"project_archipelago",
@@ -93,6 +101,7 @@
         "comments":[
             {"username":"thomas_sagstad","commentText":"Is the extra “overhang” of the gutters purely for aesthetics .. or is it for functionality as well?"},{"username":"cazlaker","commentText":"Beautiful project. Could you share the roofing system and gutter material?"}
         ],
-        "datePosted":"january 5, 2021"
+        "datePosted":"january 5, 2021",
+        "job":"Python Developer"
     }
 ]

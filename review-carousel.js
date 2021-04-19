@@ -1,16 +1,15 @@
-const url = "https://comp2132.herokuapp.com/posts"
+import { data } from "./data.js"
 
-let postArr = []
-
-async function getData() {
-    const resposnse = await fetch(url)
-    const resposnseJSON = await resposnse.json()
-
-    postArr = resposnseJSON
-
-    // JSON.stringify(postArr)
-    console.log(JSON.stringify(postArr))
-    
+const userJob = () => {
+    data.forEach(user => 
+        user.job
+    )
 }
 
-getData()
+document.querySelector('#author').innerHTML = data[0].username
+
+document.querySelector('#person-img').src = data[0].imageUrl
+
+document.querySelector('#job').innerHTML = data[0].job
+
+document.querySelector('#info').innerHTML = data[0].body.excerpt
